@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+
+    
+}
+body{
+    background-color: rgb(214, 212, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header-area{
+    width: 100%;
+    float: left;
+    margin: 20px;
+    padding: 40px;
+    padding-left: -10px;
+}
+.intro-area{
+    width: 100%;
+    float: left;
+}
+.intro-image{
+    width: 50%;
+    float: left;
+    padding: 50px 0;
+   
+}
+.intro-text{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 20px;
+    
+    
+  
+}
+.intro-text h1{
+    padding: 10px 0;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.intro-text p{
+    font-size: 16px;
+    text-align: justify;
+}
+.content-area{
+    width:100%;
+    float: left;
+}
+
+.service-area{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    
+}
+.service{
+    float: left;
+    width: 100%;
+    display: block;
+    padding: 9px;
+    background-color: rgb(238, 234, 228);
+    margin: 5px 0;
+    border-radius: 15px;
+    border: 1px solid grey;
+    
+}
+.service img{
+    float: left;
+    padding: 18px 10px;
+
+
+}
+.service p{
+    margin: 10px;
+    padding-left: 20px;
+    padding: 10px;
+    text-align: justify;
+
+
+}
+.content{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+    margin-top: 19px ;
+
+    border-radius: 15px;
+    border: 1px solid grey;
+    background-color:rgb(238, 234, 228);
+    
+}
+
+.content h2{
+    padding-top: 15px;
+    font-size: 35px ;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.content p{
+    padding: 28px 10px ;
+    margin: 7px ;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+.footer-area{
+    width: 100%;
+    float: left;
+    background-color:rgb(238, 234, 228) ;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+.copy-right{
+    width: 50%;
+    float: left;
+}
+.copy-right p{
+text-align: left;
+padding: 30px 20px;
+}
+.designer{
+    width: 50% ;
+    float: left;
+
+}
+.designer p{
+    text-align: right;
+    padding: 30px 20px;
+}
